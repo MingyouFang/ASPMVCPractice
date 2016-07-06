@@ -10,7 +10,7 @@ namespace ASPMVCPractice.Models
         public bool isEditable { get; set; }
     }
 
-    public class MovieDBContext : DbContext
+    public class ItemDBContext : DbContext
     {
         public DbSet<Item> Items { get; set; }
     }
